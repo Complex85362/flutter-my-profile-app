@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'flavors.dart';
 
 void main() {
   runApp(const MyProfileApp());
@@ -10,7 +11,7 @@ class MyProfileApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Profile',
+      title: F.title,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -26,24 +27,31 @@ class ProfileHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My Profile'),
+        title: Text(F.title),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Circular profile photo
             CircleAvatar(
-              radius: 80,
+              radius: 60,
               backgroundImage: AssetImage('assets/images/SuvhamShakyaphoto.PNG'),
             ),
             const SizedBox(height: 24),
-            // Your name
             const Text(
               'Suvham Shakya',
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: 12),
+            // Shows which flavor is running
+            Text(
+              F.title,
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
               ),
             ),
           ],
