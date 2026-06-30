@@ -88,3 +88,34 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios: {}
+
+  flavors:
+    dev:
+      app:
+        name: "Suvham Dev"
+      android:
+        applicationId: "com.example.suvham_shakya_app.dev"
+      ios:
+        bundleId: "com.example.suvhamShakya.dev"
+
+    staging:
+      app:
+        name: "Suvham Staging"
+      android:
+        applicationId: "com.example.suvham_shakya_app.staging"
+      ios:
+        bundleId: "com.example.suvhamShakya.staging"
+
+    prod:
+      app:
+        name: "Suvham Shakya"
+      android:
+        applicationId: "com.example.suvham_shakya_app"
+      ios:
+        bundleId: "com.example.suvhamShakya"
