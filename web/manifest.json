@@ -1,6 +1,6 @@
 {
-    "name": "your_name_app",
-    "short_name": "your_name_app",
+    "name": "suvham_shakya_app",
+    "short_name": "suvham_shakya_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

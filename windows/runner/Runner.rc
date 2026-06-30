@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "your_name_app" "\0"
+            VALUE "FileDescription", "suvham_shakya_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "your_name_app" "\0"
+            VALUE "InternalName", "suvham_shakya_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "your_name_app.exe" "\0"
-            VALUE "ProductName", "your_name_app" "\0"
+            VALUE "OriginalFilename", "suvham_shakya_app.exe" "\0"
+            VALUE "ProductName", "suvham_shakya_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
