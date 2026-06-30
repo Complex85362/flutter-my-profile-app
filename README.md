@@ -1,17 +1,53 @@
-# suvham_shakya_app
+# Suvham Shakya - Flutter Profile App
 
-A new Flutter project.
+A Flutter application displaying my profile, configured with three flavors: `dev`, `staging`, and `prod` using `flutter_flavorizr`.
 
-## Getting Started
+## About
+- Displays my name (Suvham Shakya) and profile photo on the home screen
+- Each flavor has a different app name and launcher icon
+- Dev and staging flavors show a colored banner in the top-left corner
 
-This project is a starting point for a Flutter application.
+## Flavors
 
-A few resources to get you started if this is your first Flutter project:
+### Dev
+- App Name: Suvham Dev
+- Application ID: com.example.suvham_shakya_app.dev
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Staging
+- App Name: Suvham Staging
+- Application ID: com.example.suvham_shakya_app.staging
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prod
+- App Name: Suvham Shakya
+- Application ID: com.example.suvham_shakya_app
+
+## Setup
+
+### Prerequisites
+- Flutter SDK installed
+- Android Studio installed
+- Android emulator or physical device
+
+### Installation
+```bash
+git clone https://github.com/Complex85362/flutter-my-profile-app.git
+cd flutter-my-profile-app
+flutter pub get
+```
+
+## Run Commands
+
+### Dev flavor
+```bash
+flutter run --flavor dev -t lib/main_dev.dart
+```
+
+### Staging flavor
+```bash
+flutter run --flavor staging -t lib/main_staging.dart
+```
+
+### Prod flavor
+```bash
+flutter run --flavor prod -t lib/main_prod.dart
+```
